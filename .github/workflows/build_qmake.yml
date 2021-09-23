@@ -59,7 +59,7 @@ jobs:
           - os: ubuntu-latest
             name: "Ubuntu Latest GCC"
           
-          - os: macos-latest
+          - os: macOS-latest
             name: "macOS Latest Clang"
 
     steps:
