@@ -20,6 +20,8 @@ defaults:
 jobs:
    upload:
      name: Upload
+     env:
+       ACTIONS_ALLOW_UNSECURE_COMMANDS: true
      runs-on: ubuntu-latest
      needs: build 
      
